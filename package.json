@@ -1,11 +1,26 @@
 {
   "name": "proyecto_reyoli",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osto0980/reyolis_proyecto-_report2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Osto0980/reyolis_proyecto-_report2/issues"
+  },
+  "homepage": "https://github.com/Osto0980/reyolis_proyecto-_report2#readme",
+  "description": ""
 }
