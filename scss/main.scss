@@ -1,32 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+@import "./variables";
+@import "./footer";
+@import "./header";
+@import "./contacto";
+@import "./inicio";
+@import "./gereral";
 
-* { 
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Figtree', sans-serif;
-}
-
-.hero {
-      background-image: url("./img/Grua_hielo.jpg");
-      height: 120vh;
-      background-repeat: no-repeat;
-      background-size: cover;
-}
-
-.logo{
-      width: 45px;
-      border-radius: 2px;
-      margin-top: 4px;
-}
-
-.redess{
-      width: 30px;
-      justify-content: flex-end;
-     
-}
-
-img:hover {
-      opacity: 1;
-}
 
