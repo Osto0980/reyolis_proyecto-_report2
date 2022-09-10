@@ -1,0 +1,88 @@
+
+.mainServicios {
+      padding: 5rem;
+
+      & p {
+            font-size: 22px;
+      }
+
+      & h2 {
+            font-size: 35px;
+            font-weight: 900;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(167, 6, 6);;
+      }
+
+
+      .tarjetaTexto {
+            display: flex;
+            border: 1px solid rgb(240, 5, 5);
+            border-radius: 20px;
+            margin-bottom: 30px;
+           
+            & img{
+                  border-radius: 20px;
+                  padding: 2rem;
+                  width: 33.3%;
+            }            
+
+        
+
+                 
+            
+      }    
+
+      .parrafoTitulo {
+            padding: 3rem;
+            font-size: 15px;
+
+            
+
+          
+      }
+      
+      .contenedortt {
+            display: flex;  
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            
+      
+
+            }
+            
+
+            & img {
+                  width: 300%;
+                  justify-content: center;
+            }
+
+            .tarjetaTexto1 {    
+            border-radius: 15px;
+            display: flex;
+          
+            
+                 
+                  & img {
+                        border-radius: 20px;
+                        
+                  }
+
+                  .desplegable {
+                        display: flex;
+                       
+                        width: 300px !important;
+                        
+
+                  }
+
+            }
+
+            
+            
+      }
+
+
+
+
+
