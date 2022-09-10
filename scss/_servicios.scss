@@ -45,22 +45,20 @@
             display: flex;  
             justify-content: center;
             align-items: center;
-            width: 300px;
-            
+            width: 100%;
       
 
             }
             
 
             & img {
-                  width: 300%;
+                  width: 600px;
                   justify-content: center;
             }
 
             .tarjetaTexto1 {    
             border-radius: 15px;
-            display: flex;
-          
+            
             
                  
                   & img {
@@ -68,16 +66,14 @@
                         
                   }
 
-                  .desplegable {
-                        display: flex;
-                       
-                        width: 300px !important;
-                        
-
-                  }
-
+                  
             }
 
+            .desplegable {
+                  margin: 0 auto;
+                  text-align: center;
+                  padding: 3rem;
+                }
             
             
       }

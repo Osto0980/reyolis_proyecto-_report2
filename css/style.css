@@ -93,15 +93,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px; }
+    width: 100%; }
   .mainServicios img {
-    width: 300%;
+    width: 600px;
     justify-content: center; }
   .mainServicios .tarjetaTexto1 {
-    border-radius: 15px;
-    display: flex; }
+    border-radius: 15px; }
     .mainServicios .tarjetaTexto1 img {
       border-radius: 20px; }
-    .mainServicios .tarjetaTexto1 .desplegable {
-      display: flex;
-      width: 300px !important; }
+  .mainServicios .desplegable {
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem; }
