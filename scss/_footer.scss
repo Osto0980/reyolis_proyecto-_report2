@@ -6,7 +6,7 @@
       font-size: 2rem;
       display: flex;
       flex-direction: column;
-
+      
 
     .fondoTop {
       display: flex;
@@ -56,9 +56,10 @@
    
     
     .text-bg {
-      background-color: #A41623;
+      background-color: #910c19;
     }
     
     .btn {
-      background-color: #A41623;
+      // background-color: #A41623;
+      @extend .text-bg
     }
