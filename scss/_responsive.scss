@@ -1,3 +1,29 @@
+@media(max-width: 920px) {
+
+  .tarjetaTexto {
+    display: flex;
+    border: 1px solid rgb(240, 5, 5);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    flex-direction: column;
+
+
+    & img{
+          border-radius: 20px;
+          padding: 2rem;
+          width: 100%;
+
+    }            
+
+
+
+         
+    
+}    
+
+}
+
+
 @media(max-width: 720px) {
 
       .fondoTop {
@@ -10,4 +36,26 @@
       .mainContact {
          flex-direction: column;
      }
+
+     .tarjetaTexto1 {
+
+
+      & img {
+        width: 300px;
+      }
+     }
+
+     .mainServicios {
+          padding: 1.5rem;
+
+     }
+    }
+
+    @media(max-width: 520px) {
+
+      .mainServicios {
+          padding: 0.5rem;
+
+   }
+
     }
