@@ -112,14 +112,15 @@
   padding: 5rem; }
 
 @media (max-width: 920px) {
-  .tarjetaTexto img {
-    padding: 0.5rem !important;
-    width: 100% !important;
+  .tarjetaTexto {
     display: flex;
     border: 1px solid #dc2d2d;
     border-radius: 20px;
     margin-bottom: 30px;
-    flex-direction: column; } }
+    flex-direction: column; }
+    .tarjetaTexto img {
+      padding: 0.5rem !important;
+      width: 100% !important; } }
 
 @media (max-width: 720px) {
   .fondoTop {
