@@ -112,16 +112,9 @@
   padding: 5rem; }
 
 @media (max-width: 920px) {
-  .tarjetaTexto {
-    display: flex;
-    border: 1px solid #f00505;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    flex-direction: column; }
-    .tarjetaTexto img {
-      border-radius: 20px;
-      padding: 2rem;
-      width: 100%; } }
+  .tarjetaTexto img {
+    padding: 0.5rem !important;
+    width: 100% !important; } }
 
 @media (max-width: 720px) {
   .fondoTop {
