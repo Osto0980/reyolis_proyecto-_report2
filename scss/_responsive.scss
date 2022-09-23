@@ -1,14 +1,14 @@
 @media(max-width: 920px) {
 
   .tarjetaTexto img {
-padding: 0.5rem !important;
-width: 100% !important;
+    padding: 0.5rem !important;
+    width: 100% !important;
 
-    // display: flex;
-    // border: 1px solid rgb(220, 45, 45);
-    // border-radius: 20px;
-    // margin-bottom: 30px;
-    // flex-direction: column;
+    display: flex;
+    border: 1px solid rgb(220, 45, 45);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    flex-direction: column;
 
 
     // & img{
@@ -16,49 +16,49 @@ width: 100% !important;
     //       padding: 0.5rem !important;
     //       width: 100% !important;
 
-    // }            
+  }
 
 
 
-         
-    
-}    
+
 
 }
 
 
+
+
 @media(max-width: 720px) {
 
-      .fondoTop {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-      }
-    
-      .mainContact {
-         flex-direction: column;
-     }
+  .fondoTop {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
 
-     .tarjetaTexto1 {
+  .mainContact {
+    flex-direction: column;
+  }
+
+  .tarjetaTexto1 {
 
 
-      & img {
-        width: 300px;
-      }
-     }
-
-     .mainServicios {
-          padding: 1.5rem;
-
-     }
+    & img {
+      width: 300px;
     }
+  }
 
-    @media(max-width: 520px) {
+  .mainServicios {
+    padding: 1.5rem;
 
-      .mainServicios {
-          padding: 0.5rem;
+  }
+}
 
-   }
+@media(max-width: 520px) {
 
-    }
+  .mainServicios {
+    padding: 0.5rem;
+
+  }
+
+}
